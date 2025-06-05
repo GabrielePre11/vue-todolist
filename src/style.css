@@ -1,0 +1,59 @@
+:root {
+  /* Colors */
+  --gray-col: #393e46;
+  --blue-col: #222831;
+  --vue-green: #1f7d53;
+  --gray-color: #dfd0b8;
+
+  /* Fonts */
+  --primary-font: "DM Sans", sans-serif;
+  --secondary-font: "Edu NSW ACT Cursive", cursive;
+}
+
+/*========== RESET ==========*/
+*::before,
+*::after,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--gray-col);
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a,
+img,
+span {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+button,
+input {
+  border: none;
+  outline: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+a {
+  font: inherit;
+  text-decoration: none;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}
